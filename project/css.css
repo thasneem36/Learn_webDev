@@ -1,0 +1,13 @@
+body{
+    background: url(./img/l-intro-1658850950.jpg) center no-repeat fixed ;
+    background-size: cover;
+}
+
+div{
+    text-align: center;
+    background-color: rgba(88, 52, 52, 0.616);
+    width: 60%;
+    color: white;
+    margin: 200px auto;
+    border-radius: 20px;
+}
