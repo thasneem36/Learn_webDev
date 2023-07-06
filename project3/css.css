@@ -1,0 +1,27 @@
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    background-color: rgba(55, 25, 25, 0.058)
+}
+
+ul li{
+    float: left;
+    padding: 15px 25px;
+
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: orange;
+    font-size: 15px;
+}
+
+ul li:hover{
+    border: 1px solid orange;
+}
+
+.right{
+    float: right;
+}

@@ -1,0 +1,38 @@
+a{
+    font-size:30px ;
+    display: inline-block;
+    background-color: orange;
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+a:hover{
+    background-color: rgb(255, 149, 0);
+}
+
+a:active{
+    background-color: rgb(255, 81, 0);
+}
+
+
+
+/* a:link{
+    color: red;
+}
+
+a:hover{
+    color: rgb(64, 255, 0);
+}
+h1:hover{
+    color: rgb(64, 255, 0);
+}
+
+a:active{
+    color: black;
+}
+
+a:visited{
+    color: rgb(63, 63, 63);
+} */
