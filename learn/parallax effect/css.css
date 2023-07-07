@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+    background: linear-gradient(to left ,rgb(111, 25, 90), rgb(183, 15, 141) , rgb(135, 19, 171));
+    color: rgb(255, 255, 255);
+}
+div{
+    height: 700px;
+
+}
+.white{
+    background-color: rgb(255, 255, 255);
+}
