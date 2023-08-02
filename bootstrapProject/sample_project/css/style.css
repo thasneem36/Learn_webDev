@@ -1,0 +1,28 @@
+body{
+
+    background:url(https://cdn.pixabay.com/photo/2015/01/08/18/25/desk-593327_1280.jpg) no-repeat fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.black{
+    height: 400px;
+    background: black;
+    margin-top:10% ;
+    border-radius: 25px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 50px;
+    opacity: 0.8;
+}
+
+.sizeS{
+    float: left;
+}
+
+@media(max-width:425px){
+    .black{
+        background: red;
+    }
+}
