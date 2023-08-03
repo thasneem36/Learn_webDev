@@ -1,0 +1,61 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: rgb(33, 35, 37);
+}
+
+.sidebar li{
+    padding: 20px;
+    margin-right: 200px;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.bg{
+    background-color: rgb(26, 29, 32);
+}
+.bg h1{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: white;
+}
+
+.box-green{
+    height: 200px;
+    width: 350px;
+    border-radius: 15px;
+    background: linear-gradient(to bottom right,#8360c3, #2ebf91);
+    padding: 65px;
+    text-align: center;
+}
+.box-green h2{
+    color: white;
+    margin-top: 10px;   
+}
+.box-blue{
+    height: 200px;
+    width: 350px;
+    border-radius: 15px;
+    background: linear-gradient(to right top,#009FFF, #ec2F4B);
+    padding: 65px;
+    text-align: center;
+}
+.box-blue h2{
+    color: white;
+    margin-top: 10px;   
+}
+.box-purpul{
+    height: 200px;
+    width: 350px;
+    border-radius: 15px;
+    background: linear-gradient(to bottom right,#ad5389, #3c1053);
+    padding: 65px;
+    text-align: center;
+}
+.box-purpul h2{
+    color: white;
+    margin-top: 10px;   
+}
