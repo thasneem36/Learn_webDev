@@ -27,3 +27,4 @@ let text_ad = [
 let filter_text = text_ad.filter((tell) => tell.isDone === false)
 
 console.log(filter_text);
+

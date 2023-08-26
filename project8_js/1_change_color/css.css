@@ -1,0 +1,16 @@
+.container{
+    padding: 20px 40px;
+}
+.ccc{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px ;
+    border: none;
+    background-color: rgb(194, 215, 234);
+
+}
+.ccc:hover{
+    border: 2px solid rgb(130, 129, 129);
+    opacity: 50%;
+    text-align: center;
+}
