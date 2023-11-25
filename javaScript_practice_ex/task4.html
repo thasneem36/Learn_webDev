@@ -1,0 +1,29 @@
+<h1 id="name">name</h1>
+<button id="mt1" onclick="mt()">mt</button>
+<button id="mt2" onclick="mt1()">thasneem</button>
+<button id="mt3" onclick="mt2()">thasneem hmmm</button>
+
+
+<script>
+
+    let Name = document.getElementById("name");
+
+    let n1 = document.getElementById("mt1")
+    let n2 = document.getElementById("mt2")
+    let n3 = document.getElementById("mt3")
+    
+    function mt(){
+         Name.textContent= n1.textContent;
+    }
+
+    function mt1(){
+            
+        Name.textContent= n2.textContent;
+    }
+
+    function mt2(){
+    Name.textContent= n3.textContent;
+
+    }
+
+</script>

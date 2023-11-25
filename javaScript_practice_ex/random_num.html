@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>guess the num</h1>
+
+    <input id="guess">
+    <button onclick="check()">Check</button>
+
+    <p id="para">Wrong or Right</p>
+    <p id="scr">SCOCER : 10</p>
+
+    <script>
+
+        let guess = document.getElementById('guess')
+        var p = document.getElementById('para')
+        let randomnum = Math.floor(Math.random()*10)+1
+        //console.log(randomnum)
+
+        let scocer = 10
+        let scocerse = document.getElementById('scr')
+
+        function check(){
+            let enternum = Number(guess.value)
+            if(randomnum == enternum){
+                p.textContent = "Right"
+                console.log("right")
+                alert("YOU WON......")
+            }
+            else{
+                p.textContent = "Wrong"
+                scocer--
+                scocerse.textContent = "SCOCER : "+scocer
+            }
+        }
+
+    </script>
+    
+</body>
+</html>

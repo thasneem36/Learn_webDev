@@ -1,0 +1,19 @@
+<button id="btn" onclick="hello()">ADD</button>
+
+<!-- <h1 id="h1t"></h1> -->
+
+<Script>
+
+    var add = document.getElementById("btn");
+    var htag = document.getElementById("h1t");
+
+    
+    function hello(){
+        let create = document.createElement("h1");
+        document.body.appendChild(create)
+        create.innerText = "hello";
+        //htag.textContent = "hello";
+
+    }
+
+</Script>
