@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: rgb(6, 58, 58);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .container{
+            width: 300px;
+            margin: 250px auto;
+            background-color: rgba(0, 0, 0, 0.425);
+            color: white;
+            padding: 10px 20px 30px;
+            font-size: 15px;
+            border-radius: 8px;
+        }
+        h2{
+            color: rgb(0, 110, 255);
+            text-align: center;
+        }
+        .textlable{
+            display: block;
+        }
+        .box input{
+            width: 100%;
+            font-size: 1.2em;
+            box-shadow: 2px;
+            border-radius: 8px;
+            border: none;
+            padding: 5px 10px;
+            box-sizing: border-box;
+            margin: 5px 0px 10px;
+        }
+        input:focus{
+            background-color: rgba(42, 64, 83, 0.562);
+        }
+        .btn{
+            text-align: center;
+        }
+        button{
+            background-color: rgb(22, 143, 180);
+            font-size: 18px;
+            color: white;
+            border: none;
+            margin-top: 20px;
+            padding: 10px 15px;
+            border-radius: 10px;
+        }
+        .radio input{
+            accent-color: blue;
+            transform: scale(1);
+            border: none;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class="container">
+        <h2>Sign UP</h2>
+        <form action="#">
+
+            <div class="box">
+                <label class="textlable" for="un">User Name</label>
+                <input type="text" name="username" id="un">
+            </div>
+            <div class="box">
+                <label class="textlable" for="em">Email</label>
+                <input type="email" name="email" id="em">
+            </div>
+            <div class="box">
+                <label class="textlable" for="pas">Password</label>
+                <input type="password" name="password" id="pas">
+            </div>
+            <div class="radio">
+                <input type="radio" name="gende" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gende" id="femlae">
+                <label for="male">Female</label>
+            </div>
+            <div class="btn">
+                <button type="submit" >Register</button>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+</html>
