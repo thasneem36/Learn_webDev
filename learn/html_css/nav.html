@@ -1,0 +1,67 @@
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }body{
+        background-color: orange;
+    }
+    .nav{
+        background-color: rgba(255, 157, 0, 0.732);
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        transition: 0.63s;
+    }
+    .nav:hover{
+        box-shadow: 0px 3px 10px 5px rgba(165, 102, 1, 0.099);
+    }
+    .title{
+        display: inline-block;
+        text-transform: uppercase;
+    }
+    .title:hover{
+        animation-name: thasneem;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes thasneem {
+        0%{
+            color: rgb(255, 115, 0);
+        }
+        50%{
+            color: orange;
+            text-shadow: 1px 2px 1px rgb(0, 0, 0);
+            
+        }
+        100%{
+            color: white;
+        }
+    }
+    .tap{
+        display: inline-block;
+        padding-left: 230px;
+    }
+    .tap ul li{
+        display: inline-block;
+        padding: 10px;
+    }
+    .tap ul li:hover{
+        color: white;
+        cursor: pointer;
+    }
+</style>
+
+<div class="nav">
+    <div class="title">
+        <h2>thasneem</h2>
+    </div>
+    <div class="tap">
+        <ul>
+            <li>Home</li>
+            <li>About US</li>
+            <li>Contact US</li>
+        </ul>
+    </div>
+</div>
