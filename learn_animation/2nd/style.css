@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+div{
+    margin-top: 20%;
+}
+.div{
+    width: 100px;
+    height: 10px;
+    background-color: white;
+    transition: 1s;
+}
+.div:hover{
+    background:radial-gradient(rgb(59, 53, 43),rgb(15, 15, 25));
+    /* background-color: orange; */
+    width: 200px;
+    height: 100px;
+    /* animation-name: color_change; */
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transition: 1s;
+}
+@keyframes color_change {
+    10%{
+        /* background-color: orange; */
+    }
+    25%{
+        background-color: blueviolet;
+    }
+    50%{
+        background-color: brown;
+    }
+    100%{
+        background-color: red;
+    }
+}
+.hello{
+    margin-top: 30px;
+    margin-left: 50px;
+}

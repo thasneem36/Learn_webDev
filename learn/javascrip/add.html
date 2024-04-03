@@ -1,0 +1,19 @@
+<input id="num1">
+<input id="num2">
+<button onclick="submit()">submit</button>
+<p id="final">fff</p>
+
+<script>
+    var a = document.getElementById("num1")
+    var b = document.getElementById("num2")
+    var final = document.getElementById("final")
+
+
+    function submit(){
+        var totala =Number( a.value)
+        var totalb = Number(b.value)
+        var total = totala+totalb
+        console.log(total)
+        final.textContent =  total
+    }
+</script>

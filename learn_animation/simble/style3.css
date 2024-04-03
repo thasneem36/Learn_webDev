@@ -1,0 +1,28 @@
+.style3 * {
+    margin: 0;
+    padding: 0;
+}
+.style3{
+    width: 100%;
+    background-color: rgb(136, 0, 255);
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+.style3 ul li{
+    display: inline-block;
+    padding: 10px;
+    transition: 1s;
+    color: rgba(0, 0, 0, 0.529);
+    /* background-color: rgba(239, 235, 235, 0.481); */
+}
+.style3 ul li:hover{
+    background-color: rgb(255, 187, 0);
+    position: relative;
+    top: 10px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 1px rgb(0, 255, 204);
+    cursor: pointer;
+}

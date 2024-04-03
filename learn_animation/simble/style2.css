@@ -1,0 +1,14 @@
+.style2 ul li{
+    display: inline-block;
+    padding: 10px;
+    transition: 1s;
+    background-color: rgba(239, 235, 235, 0.481);
+}
+.style2 ul li:hover{
+    background-color: rgb(255, 208, 0);
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    box-shadow: 2px 2px 10px rgba(130, 130, 11, 0.525);
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+div{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    animation: 5s transfar infinite;
+}
+@keyframes transfar{
+    100%{
+        height: 50px;
+    }
+    90%{
+        background-color: orange;
+    }
+
+    10%{
+        background-color: black;
+        width: 100px;
+        height: 100px;
+    }
+}

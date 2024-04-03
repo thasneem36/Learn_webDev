@@ -1,0 +1,13 @@
+<input id="inputbox" onkeyup="runtime()">
+<p id="past">.....</p>
+
+<script>
+
+    var box = document.getElementById("inputbox")
+    var pastbox = document.getElementById("past")
+    function runtime(){
+        console.log(box.textContent)
+        pastbox.textContent = box.value
+    }
+
+</script>

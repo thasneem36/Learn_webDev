@@ -1,0 +1,22 @@
+.container{
+    text-align: center;
+}
+.navbar{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.style1 ul li{
+    display: inline-block;
+    /* margin: 10px; */
+    padding: 10px;
+    transition: 1s;
+}
+.style1 ul li:hover{
+    background-color: black;
+    color: white;
+}
